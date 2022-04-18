@@ -9,7 +9,8 @@ const Blogs = () => {
             </p>
             <h1>What other services does firebase provide other than authentication ?</h1>
             <p>
-                Firebase is a tool to authorize any site. Without athorization, It has Cloud functionality.
+                Firebase is a tool to authorize any site. Without athorization, It has Cloud functionality. thay also provide custom domain. and they have realtime database.
+                they provide cloud database to sync and store data for clind side and server side development.Cloud Storage is built for app developers to store and serve user-generated content.
             </p>
         </div>
     );
