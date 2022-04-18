@@ -3,6 +3,7 @@ import { Carousel } from "react-bootstrap";
 import classroom1 from "../../Images/classroom1.jpg";
 import classroom2 from "../../Images/classroom2.jpg";
 import classroom3 from "../../Images/classroom3.jpg";
+import Services from "../Services/Services";
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <Services></Services>
     </div>
   );
 };
