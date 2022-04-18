@@ -4,7 +4,7 @@ import image from '../../Images/239909995_3058198827788946_8227483718259351115_n
 
 const AboutMe = () => {
     return (
-        <div className='profile'>
+        <div className='profile container'>
             <img src={image} alt="" />
             <h1>Md. Moshiur Rahman</h1>
             <h3>My Goal</h3>
