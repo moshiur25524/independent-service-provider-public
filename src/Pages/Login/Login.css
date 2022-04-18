@@ -5,9 +5,10 @@
 }
 
 .signin-button button{
-    display: flex;
+    /* display: flex; */
     color: white;
     background-color: brown;
     border: 2px solid gray;
+    margin-right: 10px;
     border-radius: 5px;
 }
