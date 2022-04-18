@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import "./Login.css";
 import auth from '../../firebase.init'
 import { GithubAuthProvider, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useCreateUserWithEmailAndPassword, useSendEmailVerification } from 'react-firebase-hooks/auth';
 const Login = () => {
 
     const [email, setEmail] = useState('');
@@ -16,6 +16,9 @@ const Login = () => {
         loading,
         error,
       ] = useCreateUserWithEmailAndPassword(auth);
+      const [sendEmailVerification, sending, EmailVerificationError] = useSendEmailVerification(
+        auth
+      );
 
     const  GitHubProvider = new GithubAuthProvider();
     const  GoogleProvider = new GoogleAuthProvider();
@@ -27,8 +30,16 @@ const Login = () => {
         setPassword(event.target.value)
     }
     const handleFormSubmit = event =>{
+
+        
+        const EmailVerification = async () => {
+            await sendEmailVerification();
+            alert('Sent email');
+          }
+
         event.preventDefault();
         createUserWithEmailAndPassword(email, password)
+        
     }
 
     const handleGitHubSignIn = () =>{
@@ -67,7 +78,7 @@ const Login = () => {
           <Form.Group className="mb-3" controlId="formBasicCheckbox">
             <Form.Check type="checkbox" label="Check me out" />
           </Form.Group>
-          <Button variant="primary" type="submit">
+          <Button  variant="primary" type="submit">
             Login
           </Button>
 
