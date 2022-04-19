@@ -1,0 +1,17 @@
+.all-environments {
+    --auto-grid-min-size: 16rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1rem;
+  }
+
+.single-environment {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #d9dee0, #ffffff);
+  box-shadow: 23px 23px 47px #cdd2d4, -23px -23px 47px #ffffff;
+}
+
+.single-environment img{
+    height: 200px;
+    width: 240px;
+}
