@@ -1,6 +1,6 @@
 # Knowledge Hut
 
-The Live link of Project [Knowledge](https://github.com/facebook/create-react-app).
+The Live link of Project [Knowledge Hut](https://github.com/facebook/create-react-app).
 
 ## About Whole Project
 
@@ -10,15 +10,12 @@ The Live link of Project [Knowledge](https://github.com/facebook/create-react-ap
 * All my information and bio data is mentioned in this website.
 * Every students have to fill a form to join me.
 
-In the project directory, you can run:
+### Library / Framework which is used in this project
 
-### `npm start`
+* React bootstrap
+* React firebase hooks
+* React router
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
