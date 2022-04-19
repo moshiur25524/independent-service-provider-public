@@ -5,11 +5,12 @@ import classroom2 from "../../Images/classroom2.jpg";
 import classroom3 from "../../Images/classroom3.jpg";
 import Services from "../Services/Services";
 import Environment from "../Environment/Environment";
+import './Home.css'
 
 const Home = () => {
   return (
     <div>
-      <div className="container">
+      <div className=" banner container">
       <Carousel fade>
         <Carousel.Item>
           <img className="d-block w-100" src={classroom1} alt="First slide" />
