@@ -7,6 +7,7 @@ const Service = ({ service }) => {
   const { subject, img, fee, description } = service;
   const navigate = useNavigate();
 
+  
   const handleEnrollbtn = () =>{
       navigate('/checkout')
   }

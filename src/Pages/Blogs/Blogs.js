@@ -12,6 +12,9 @@ const Blogs = () => {
                 Firebase is a tool to authorize any site. Without athorization, It has Cloud functionality. thay also provide custom domain. and they have realtime database.
                 they provide cloud database to sync and store data for clind side and server side development.Cloud Storage is built for app developers to store and serve user-generated content.
             </p>
+            <h1>Why are you using firebase? What other options do you have to implement authentication?</h1>
+            <p>Firebase is mainly used in authentication. Thats why I am using firebase. Ands besides firebase have some extra functionality. I can host my website through firebase. some database activity can be done by using firebase. Through firebase, sign in , sign up and sign out functionality can be done. firebase also provide some provider to log in such as google, facebook, twetter, github, microsoft etc.</p>
+            <p>To implement authentication, there are more options. Among them parse, Back4App, AWS Amplify, kuzzle are most familiar for Athentication.</p>
         </div>
     );
 };

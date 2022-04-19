@@ -1,21 +1,25 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import "./Login.css";
 import auth from '../../firebase.init'
 import { GithubAuthProvider, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-import { useCreateUserWithEmailAndPassword, useSendEmailVerification } from 'react-firebase-hooks/auth';
+import { useSendEmailVerification, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useNavigate } from "react-router-dom";
 const Login = () => {
+
+    const navigate = useNavigate();
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    // const [error, setError] = useState('')
 
     const [
-        createUserWithEmailAndPassword,
-        user,
-        loading,
-        error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+      signInWithEmailAndPassword,
+      user,
+      loading,
+      error,
+    ] = useSignInWithEmailAndPassword(auth);
       const [sendEmailVerification, sending, EmailVerificationError] = useSendEmailVerification(
         auth
       );
@@ -29,8 +33,12 @@ const Login = () => {
     const handlePasswordBlur = event =>{
         setPassword(event.target.value)
     }
-    const handleFormSubmit = event =>{
 
+    if(user){
+      navigate('/home')
+    }
+
+    const handleFormSubmit = event =>{
         
         // const EmailVerification = async () => {
         //     await sendEmailVerification();
@@ -38,8 +46,14 @@ const Login = () => {
         //   }
 
         event.preventDefault();
-        createUserWithEmailAndPassword(email, password)
+        signInWithEmailAndPassword(email, password)
+        setEmail('');
+        setPassword('')
         
+    }
+
+    const navigateRegister= () =>{
+      navigate('/register');
     }
 
     const handleGitHubSignIn = () =>{
@@ -81,17 +95,19 @@ const Login = () => {
           <Button  variant="primary" type="submit">
             Login
           </Button>
+          <p>New to Knowledge Hut ? <span style={{cursor:'pointer'}} className="text-danger" onClick={navigateRegister}>Please Register!!</span></p>
 
           <div className="extra">
             <hr />
             <p>or</p>
             <hr />
           </div>
-          <div className="signin-button">
+          
+        </Form>
+        <div className="signin-button">
             <button onClick={handleGoogleSignIn}>Google SignIn</button>
             <button  onClick={handleGitHubSignIn}>GitHub SignIn</button>
           </div>
-        </Form>
       </div>
     </div>
   );
