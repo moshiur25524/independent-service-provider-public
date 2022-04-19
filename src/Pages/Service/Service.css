@@ -1,0 +1,5 @@
+.service-detail {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #d9dee0, #ffffff);
+  box-shadow: 23px 23px 47px #cdd2d4, -23px -23px 47px #ffffff;
+}

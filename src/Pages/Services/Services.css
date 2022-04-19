@@ -1,0 +1,12 @@
+.services {
+    --auto-grid-min-size: 16rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1rem;
+  }
+
+  .card-header {
+      text-align: center;
+      color: rgba(0, 0, 0, 0.463);
+  }
+

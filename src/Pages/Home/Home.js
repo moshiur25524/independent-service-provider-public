@@ -4,6 +4,7 @@ import classroom1 from "../../Images/classroom1.jpg";
 import classroom2 from "../../Images/classroom2.jpg";
 import classroom3 from "../../Images/classroom3.jpg";
 import Services from "../Services/Services";
+import Teachers from "../Teachers/Teachers";
 
 const Home = () => {
   return (
@@ -36,6 +37,7 @@ const Home = () => {
         </Carousel.Item>
       </Carousel>
       <Services></Services>
+      <Teachers></Teachers>
     </div>
   );
 };

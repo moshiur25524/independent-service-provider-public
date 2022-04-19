@@ -2,36 +2,36 @@
     {
       "id": 1,
       "subject": "Physics",
-      "package": 1200,
+      "fee": 1200,
       "img": "https://images.unsplash.com/photo-1632571401005-458e9d244591?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
       "description": "Physics is a hard subject. According to some students. But it is interesting subject. Basically physics means law of nature. By learning physics, you can play with nature. The Nature will teach you same magic of her world. So do not worry. We all together will be a student of nature and gossip with her"
     },
     {
       "id": 2,
       "subject": "Chemistry",
-      "package": 1000,
+      "fee": 1000,
       "img": "https://images.unsplash.com/photo-1614934273801-0da56c52b081?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80",
       "description": "What we see all around man made things are mostly used of chemical. From morning to till night, we use many kind of chemicals. But do we ever try to realize how we got those chemicals and how we about those reaction of chemicals. Even you can discover a new thing through the knowledge of chemical. ohh!! Sorry Chemistry. It is just a subject"
     },
     {
       "id": 3,
       "subject": "Mathematics",
-      "package": 1200,
+      "fee": 1200,
       "img": "https://images.unsplash.com/photo-1581089784209-f2e9b2e20d3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "description": "mathematics is one kind of game. Everybody likes to play game. But differnt person like different types of game. But most of our modern tecnology understand the magic of math. sometimes it can be said that math is the language of physics. So are you ready to play with us in mathematics!!!"
     },
     {
       "id": 4,
       "subject": "Biology",
-      "package": 900,
+      "fee": 900,
       "img": "https://images.unsplash.com/photo-1532153470116-e8c2088b8ac1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "description": "Initaility, you can say, biology means your body parts, your internal and external organs. Not only humans, every plants and animals are the part of biology. We know all of it. Just we have to know more about the activity and power of our organs. If you want to feel biology, just strive for 2 day. You will notice that an organ is try to speak with you for help."
     },
     {
       "id": 5,
       "subject": "English",
-      "package": 800,
-      "img": "",
+      "fee": 800,
+      "img": "https://images.unsplash.com/photo-1588912914017-923900a34710?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=919&q=80",
       "description": "Most of our students feel terrified when a sound some after them. And that is English. Mann!! English just an Language as like Bangla. You have to go forward step by step like learning bangla as before childhood. And besides you learn when and how a word and sentence have to use. What we call grammer. It is just correction of language. Do not worry we will gossip with you. Language does not matter."
     }
   ]
