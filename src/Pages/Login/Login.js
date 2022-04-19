@@ -32,10 +32,10 @@ const Login = () => {
     const handleFormSubmit = event =>{
 
         
-        const EmailVerification = async () => {
-            await sendEmailVerification();
-            alert('Sent email');
-          }
+        // const EmailVerification = async () => {
+        //     await sendEmailVerification();
+        //     alert('Sent email');
+        //   }
 
         event.preventDefault();
         createUserWithEmailAndPassword(email, password)

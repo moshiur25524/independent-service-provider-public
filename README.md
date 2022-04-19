@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# Knowledge Hut
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Live link of Project [Knowledge](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## About Whole Project
+
+* This website is education related website where student can get his required teacher
+* In the Home page, Navbar, banner, and some services are added to know details about me.
+* For students betterment, I make a great environment with a library, computer lab, garden and common room
+* All my information and bio data is mentioned in this website.
+* Every students have to fill a form to join me.
 
 In the project directory, you can run:
 
