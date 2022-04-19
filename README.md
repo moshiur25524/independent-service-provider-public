@@ -1,6 +1,6 @@
 # Knowledge Hut
 
-The Live link of Project [Knowledge Hut](https://github.com/facebook/create-react-app).
+The Live link of Project [Knowledge Hut](https://home-tutor-f78f7.web.app/).
 
 ## About Whole Project
 
